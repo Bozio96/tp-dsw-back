@@ -9,8 +9,6 @@ import {
   Post,
   Put,
   Query,
-  Req,
-  Res,
   UsePipes, //Sirve para hacer validaciones en conjunto con el DTO
   ValidationPipe, //Vale de la mano con el UsePipes
 } from '@nestjs/common';
