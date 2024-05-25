@@ -23,21 +23,18 @@ export class ProductsService {
     }
   }
 
-  // @Post('/')
   createProduct(product: createProductDTO): Array<any> {
     //Aca se le puede poner el Tipo de dato que queremos que retorne, propio de TS. En este caso es un Array de cualquier tipo de datos dentro
     this.products.push({ ...product, id: this.products.length + 1 });
     return this.products;
   }
 
-  // @Put('/')
   updateProduct(product: updateProductDTO) {
     console.log(product.name);
     return 'Producto actualizado con éxito';
   }
 
-  // @Delete('/')
-  deleteProduct(id:number):any {
+  deleteProduct(id: number): any {
     return 'Producto eliminado con éxito';
   }
 }
