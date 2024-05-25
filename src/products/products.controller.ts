@@ -9,7 +9,7 @@ import {
   Post,
   Put,
   Query,
-  Req, //Importación en vano- comentario de prueba
+  Req,
   Res,
   UsePipes, //Sirve para hacer validaciones en conjunto con el DTO
   ValidationPipe, //Vale de la mano con el UsePipes
